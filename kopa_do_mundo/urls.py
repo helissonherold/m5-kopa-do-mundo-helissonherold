@@ -17,7 +17,6 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path, include
-from teams.views import TeamView
 
 urlpatterns = [
     path("admin/", admin.site.urls),
